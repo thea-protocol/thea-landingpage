@@ -1,0 +1,68 @@
+a {
+    text-decoration: none;
+}
+
+.about-team-wrapper{
+    /* padding: 0 4.75vw; */
+    margin: auto;
+    max-width: 1200px;
+}
+
+.about-team-wrapper h1 {
+    color: #fff;
+    font-size: 3.125vw;
+    font-weight: 300;
+    line-height: 3.125vw;
+    margin-bottom: 2.1vw;
+    text-align: center;
+}
+
+.about-team-wrapper button {
+    background: #A9E1E0;
+    border: none;
+    border-radius: 8px;
+    color: #105857;
+    cursor: pointer;
+    display: block;
+    font-size: 1.05vw;
+    line-height: 2.1vw;
+    margin: 2.1vw auto;;
+    padding: 1vw;
+    width: 25%;
+}
+
+.about-team-wrapper a {
+    text-decoration: none;
+}
+
+.about-team-wrapper p {
+    color: #fff;
+    font-size: 1.05vw;
+    line-height: 1.5vw;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .about-team-wrapper {
+        padding: 0 20px;
+    }
+    .about-team-wrapper h1 {
+        font-size: 36px;
+        line-height: 60px;
+        margin-bottom: 20px;
+    }
+
+    .about-team-wrapper p {
+        font-size: 16px;
+        line-height: 28px;
+        width: 100%;
+    }
+
+    .about-team-wrapper button {
+        font-size: 20px;
+        line-height: 20px;
+        margin: 40px 0;
+        padding: 20px;
+        width: 100%;
+    }
+}

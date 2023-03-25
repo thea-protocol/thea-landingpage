@@ -1,0 +1,152 @@
+.impact-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 2.1vw 4.75vw;
+}
+
+.impact-title {
+  color: #105857;
+  flex: 1;
+  font-size: 2.5vw;
+  font-weight: 300;
+  line-height: 3.1vw;
+  text-align: center;
+}
+
+.impact-tabs {
+  flex: 2;
+  margin-left: 1em;
+}
+
+.impact-tabs .items-wrapper-mobile {
+  display: none;
+}
+
+.items-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.impact-item {
+  align-items: center;
+  background-color: #a9e1e0;
+  border-radius: 10px;
+  border: none;
+  color: #3a8d8c;
+  display: flex;
+  font-size: 0.85vw;
+  line-height: 1.25vw;
+  flex: 1;
+  justify-content: center;
+  margin: 0 10px 2em 0;
+  padding: 1.25vw;
+  text-align: center;
+  cursor: pointer;
+}
+
+.impact-item-active {
+  background: #105857;
+  color: #fff;
+}
+
+.impact-tabs p {
+  color: #105857;
+  font-size: 1.1vw;
+  line-height: 1.5vw;
+}
+.title-arrow {
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+
+.dropdown-menus {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 768px) {
+  .impact-wrapper,
+    .impact-tabs {
+        display: block;
+    }
+
+    .impact-tabs .items-wrapper {
+        display: none;
+    }
+
+    .impact-title {
+        font-size: 36px;
+        line-height: 48px;
+        margin-bottom: 20px;
+        width: auto;
+        letter-spacing: -2px;
+    }
+
+    .impact-tabs {
+        margin: 0;
+    }
+
+    .items-wrapper-mobile .title-arrow {
+        background-color: #105857;
+        border: none;
+        border-radius: 8px 8px 0 0;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 24px;
+        padding: 24px;
+        text-align: left;
+        width: 100%;
+    }
+
+    .items-wrapper-mobile .title-arrow span {
+      flex: 1;
+    }
+
+    .dropdown-menu.open {
+        border: 1px solid #105857;
+        border-radius: 0 0 8px 8px;
+    }
+
+    .dropdown-menu button {
+        background-color: #A9E1E0;
+        border: none;
+        border-bottom: 1px solid #fff;
+        border-radius: 0;
+        color: #105857;
+        display: block;
+        font-size: 18px;
+        line-height: 20px;
+        padding: 16px 32px;
+        text-align: left;
+        width: 100%;
+    }
+
+    .title-arrow .css-i4bv87-MuiSvgIcon-root {
+      font-size: 40px !important;
+    }
+
+    .dropdown-menu button:last-child {
+      border-radius: 0 0 8px 8px;
+    }
+
+    .impact-tabs .items-wrapper-mobile {
+      display: block;
+    }
+
+    .impact-wrapper .title-arrow {
+      align-items: center;
+      display: flex;
+    }
+
+    .impact-wrapper .title-arrow span {
+      flex: 1;
+    }
+
+    .impact-tabs p {
+      font-size: 16px;
+      line-height: 20px;
+      margin-top: 20px;
+    }
+}

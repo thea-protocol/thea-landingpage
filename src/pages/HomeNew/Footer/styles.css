@@ -1,0 +1,105 @@
+.footer-wrapper {
+  background-color: #093d3c;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4.75vh 4.75vw;
+}
+
+.footer-wrapper .left {
+  flex: 2;
+}
+
+.footer-wrapper p {
+  color: #fff;
+  font-size: 1.045vw;
+  font-weight: 400;
+  line-height: 1.5vw;
+  margin: 2.125vw 0;
+}
+
+.footer-wrapper .links {
+  display: flex;
+  flex: 3;
+}
+
+.footer-row {
+  display: flex;
+  flex-direction: column;
+  margin: 0 3em;
+}
+
+.footer-title {
+  color: white;
+  font-size: 1.5vw;
+  font-weight: 400;
+  line-height: 1.5vw;
+  margin: 0 0 1.045vw;
+}
+
+.footer-anchor {
+  color: white !important;
+  font-size: 1.045vw;
+  font-weight: 400;
+  line-height: 1.5vw;
+  margin: 0 0 1.045vw !important;
+  text-decoration: none;
+}
+
+.footer-wrapper a {
+  text-decoration: none;
+}
+
+.footer-wrapper button {
+  background: #A9E1E0;
+  border: none;
+  border-radius: 8px;
+  color: #105857;
+  cursor: pointer;
+  display: block;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 2em;
+  margin: 0;
+  padding: 0.5em;
+  width: 50%;
+}
+
+@media  only screen and (max-width: 768px) {
+  .footer-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-wrapper .links {
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+
+  .footer-wrapper .footer-row {
+    margin: 20px 0;
+    width: 45%;
+  }
+
+  .footer-wrapper button {
+    width: 100%;
+  }
+
+  .footer-wrapper p {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 40px 0 20px;
+  }
+
+  .footer-title {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 16px;
+  }
+
+  .footer-anchor {
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 12px !important;
+  }
+}
