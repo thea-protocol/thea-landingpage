@@ -1,0 +1,300 @@
+@font-face {
+  font-family: "Avenir Next";
+  src: url("/fonts/AvenirNext-Heavy.otf") format("opentype");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Avenir Next";
+  src: url("/fonts/AvenirNext-demi.otf") format("opentype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Avenir Next";
+  src: url("/fonts/AvenirNext-Bold.otf") format("opentype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Avenir Next";
+  src: url("/fonts/AvenirNext-Medium.otf") format("opentype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url("/fonts/AvenirNext-Regular.otf") format("opentype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url("/fonts/AvenirNext-semibold.otf") format("opentype");
+  font-weight: 350;
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url("/fonts/AvenirNext-light.otf") format("opentype");
+  font-weight: 300;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Global colors and vars */
+$primary-color: #105857;
+$white: #fff;
+
+// COMMON CSS
+#w3a-modal {
+  z-index: 999;
+}
+.text-red {
+  color: #c0504b;
+}
+.text-green {
+  color: #105857;
+}
+.text-light-green {
+  color: #3a8d8c;
+}
+.text-blue {
+  color: #1e354a;
+}
+
+.mt-12 {
+  margin-top: 12px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.btn-next {
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  color: $white;
+  background-color: $primary-color;
+  display: inline-block;
+  padding: 10px 18px;
+  cursor: pointer;
+}
+
+.text-sm-grey {
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 14px;
+  color: #7e7e7e;
+}
+
+// offset footprint card btn
+.BtnoffSetBtn {
+  border: none;
+  background: #105857;
+  color: #ffffff;
+  padding: 2px 20px;
+  min-height: 32px;
+  min-width: 100px;
+  line-height: 32px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 4px 8px;
+  letter-spacing: 0.8px;
+}
+
+.offsetSpan {
+  padding-right: 10px;
+}
+
+.selectTagStyle {
+  -webkit-appearance: none; /* hide default arrow on Safari */
+  -moz-appearance: none; /* hide default arrow on Firefox */
+  appearance: none; /* hide default arrow on other browsers */
+  background: white;
+  padding-right: 20px; /* add space for custom arrow */
+  background-image: url("assets/down-arrow.svg"); /* add custom arrow */
+  background-repeat: no-repeat;
+  background-position-x: 97%;
+  background-position-y: center;
+  position: relative;
+  outline: none;
+  width: 100%;
+  height: 40px;
+  border: 1px solid #105857;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #1e354a;
+  padding: 0 12px;
+}
+
+.sdr {
+  @media (max-width: 1023px) {
+    height: auto !important;
+    // position: fixed !important;
+    // bottom: 0 !important;
+    // left: 0 !important;
+    // right: 0 !important;
+    // top: initial !important;
+    // z-index: 9999 !important;
+  }
+  .rt-sidebar {
+    @media (max-width: 1023px) {
+      display: none;
+    }
+  }
+  &-mobile {
+    @media (min-width: 1024px) {
+      display: none;
+    }
+    @media (max-width: 768px) {
+      display: grid;
+      grid-template-columns: 73% 24%;
+      gap: 15px;
+      &--left {
+        position: relative;
+        background-color: $white;
+        border-radius: 10px;
+        overflow: hidden;
+        .sdr-header {
+          background-color: $primary-color;
+          color: #fff;
+          padding: 5px 15px;
+          h3 {
+            font-size: 15px;
+            font-weight: 600;
+          }
+        }
+        .tags {
+          position: absolute;
+          width: 69px !important;
+          padding: 3px 0 !important;
+          p {
+            font-weight: 500 !important;
+            font-size: 8px !important;
+          }
+        }
+        .nbt-map {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          left: 3px;
+          top: 20px;
+          svg {
+            width: 150px;
+          }
+        }
+        .nbt-map--item button {
+          width: 24px !important;
+          height: 24px !important;
+        }
+        .nbt-map--item .top-1 {
+          left: 10px !important;
+          top: -8px !important;
+        }
+        .nbt-map--item .top-2 {
+          left: 98px !important;
+          top: -5px !important;
+        }
+        .nbt-map--item .top-3 {
+          right: 40px !important;
+          top: -19px !important;
+        }
+        .nbt-map--item .bottom-1 {
+          left: 84px !important;
+          top: 63px !important;
+        }
+        .nbt-map--item .bottom-2 {
+          left: 139px !important;
+          top: 63px !important;
+        }
+      }
+    }
+  }
+  &-dashboard,
+  &-wallet {
+    width: 80px;
+    height: 80px;
+    background: #ffffff;
+    border: 1px solid $primary-color;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: center;
+    h3 {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 14px;
+      letter-spacing: 0.02em;
+      color: $primary-color;
+    }
+    &.active {
+      background-color: $primary-color;
+      h3 {
+        color: $white;
+      }
+    }
+  }
+  &-wallet {
+    margin-top: 15px;
+  }
+}
+
+/* MAIN LAYOUT */
+
+.main {
+  @media (min-width: 1024px) {
+    display: grid;
+    grid-template-columns: 90px 1fr;
+  }
+  &__left {
+    @media (max-width: 1023px) {
+      position: initial;
+      width: 100% !important;
+      .MuiDrawer-paper {
+        position: initial;
+        width: 100% !important;
+      }
+    }
+    .hdr {
+      background-color: $primary-color;
+      @media (max-width: 1023px) {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-height: 70px;
+      }
+      .mobile-logo {
+        width: 165px;
+        @media (min-width: 1024px) {
+          display: none;
+        }
+      }
+      .web-logo {
+        @media (max-width: 1023px) {
+          display: none;
+        }
+      }
+    }
+  }
+}
