@@ -46,7 +46,8 @@ const HomeNew = () => {
         <MobileHeader />
         <div className="headerWrapper" id="header-wrapper">
           <Header />
-          <MainContent />
+        </div>
+        <MainContent />
           <SecondSection />
           <Offerings />
           <Impact />
@@ -55,7 +56,6 @@ const HomeNew = () => {
           <Nomenclature />
           <AboutTeam />
           <Footer />
-        </div>
       </div>
     </div>
   );

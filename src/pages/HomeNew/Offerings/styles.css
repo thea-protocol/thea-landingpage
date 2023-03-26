@@ -218,6 +218,9 @@ ul li {
 }
 
 @media screen and (max-width: 680px) {
+  .offerings {
+    width: 100vw;
+  }
   .stepper-wrapper {
     display: block;
   }
