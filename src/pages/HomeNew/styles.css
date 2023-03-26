@@ -485,10 +485,6 @@ html {
     .solutions .disclaimer {
         margin-top: 16px;
     }
-
-    .carousel-root .carousel:last-child {
-        display: none;
-    }
 }
 
 /* Green BG styles */
