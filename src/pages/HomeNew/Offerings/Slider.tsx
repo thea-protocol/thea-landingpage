@@ -4,8 +4,7 @@ import SwipeableViews from "react-swipeable-views";
 import Item from "./Item";
 import "./styles.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from 'react-responsive-carousel';
-
+import { Carousel } from "react-responsive-carousel";
 
 interface Props {
   data: Array<{
@@ -19,10 +18,9 @@ interface Props {
 }
 
 const SwipeableTextMobileStepper = ({ data }: Props) => {
-
   return (
     <div>
-      <Carousel>
+      <Carousel showThumbs={false}>
         {data.map((v, index) => (
           <div key={v.desc}>
             <Item
