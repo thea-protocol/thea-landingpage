@@ -170,7 +170,7 @@ html {
 
 .sticky {
   background-color: #105857;
-  padding: 1vh 4.25vw;
+  padding: 0;
   position: fixed;
   top: 0;
   width: 100%;
@@ -204,6 +204,10 @@ html {
 
 .sticky.nav .logo a {
   display: none;
+}
+
+.sticky.nav .logo {
+  padding: 0 0 0 4.25vw;
 }
 
 .sticky.nav .logo a:last-child {
