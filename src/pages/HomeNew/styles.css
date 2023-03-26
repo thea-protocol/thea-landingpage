@@ -170,7 +170,7 @@ html {
 
 .sticky {
   background-color: #105857;
-  padding: 0;
+  padding: 1vw 0;
   position: fixed;
   top: 0;
   width: 100%;
