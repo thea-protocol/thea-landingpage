@@ -85,6 +85,10 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .contribution {
+        padding: 60px 16px;
+        /* width: 92vw; */
+    }
     .contribution h1 {
         font-size: 36px;
         line-height: 48px;
