@@ -17,10 +17,10 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const HomeNew = () => {
-  const loc = useLocation();
   const params = useParams();
+  const loc = useLocation();
+  console.log({ loc: loc.key });
 
-  // AOS SETUP
   React.useEffect(() => {
     AOS.init({
       once: false,
@@ -29,6 +29,7 @@ const HomeNew = () => {
   }, []);
 
   useEffect(() => {
+    console.log(loc?.key, params.sub);
     if (params.sub) {
       const el = document.getElementById(params.sub);
       el.scrollIntoView({ behavior: "smooth", block: "start" });
