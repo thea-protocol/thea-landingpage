@@ -15,7 +15,11 @@ function App() {
       <CssBaseline />
       <BrowserRouter>
         <Routes>
-          <Route path="/home-new|/home-new/:sub" element={<HomeNew />}></Route>
+          <Route index element={<HomeNew />}></Route>
+          <Route path="home-new" element={<HomeNew />}></Route>
+          <Route path="home-new/:sub" element={<HomeNew />}></Route>
+          <Route path="team" element={<HomeNew />}></Route>
+          <Route path="background" element={<HomeNew />}></Route>
         </Routes>
       </BrowserRouter>
     </ThemeProvider>
