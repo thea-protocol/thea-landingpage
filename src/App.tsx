@@ -6,6 +6,8 @@ import "./App.css";
 import { ThemeProvider } from "@mui/material/styles";
 import { lightTheme } from "./utils";
 import CssBaseline from "@mui/material/CssBaseline";
+import Background from "./pages/HomeNew/Background";
+import Team from "./pages/HomeNew/Background/Team";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,8 +20,8 @@ function App() {
           <Route index element={<HomeNew />}></Route>
           <Route path="home-new" element={<HomeNew />}></Route>
           <Route path="home-new/:sub" element={<HomeNew />}></Route>
-          <Route path="team" element={<HomeNew />}></Route>
-          <Route path="background" element={<HomeNew />}></Route>
+          <Route path="team" element={<Team />}></Route>
+          <Route path="background" element={<Background />}></Route>
         </Routes>
       </BrowserRouter>
     </ThemeProvider>
