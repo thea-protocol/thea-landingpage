@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className="footer-wrapper">
       <div className="left">
-        <Link to="/home-new">
+        <Link to="/home">
           <TheaIcon />
         </Link>        
         <p>Climate Positive Action; made easy.</p>
@@ -22,10 +22,10 @@ const Footer = () => {
           <Link className="footer-anchor" to="/background">
             Background
           </Link>
-          <Link className="footer-anchor" to="/home-new/offerings">
+          <Link className="footer-anchor" to="/home/offerings">
             Offering
           </Link>
-          <Link className="footer-anchor" to="/home-new/contribution">
+          <Link className="footer-anchor" to="/home/contribution">
             Contribution
           </Link>          
         </div>

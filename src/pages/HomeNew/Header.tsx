@@ -32,14 +32,14 @@ const Header = () => {
     <div id="header-container">
       <div className="nav" id="myHeader">
         <div className="logo">
-          <Link to="/home-new">
+          <Link to="/home">
             <Logo />
             {/* <StickyLogo /> */}
           </Link>
-          {/* <Link to="/home-new">
+          {/* <Link to="/home">
           <LogoName />
         </Link> */}
-          <Link to="/home-new">
+          <Link to="/home">
             <StickyLogo />
           </Link>
         </div>
@@ -51,17 +51,17 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link id="offerings-anchor" to="/home-new/offerings">
+              <Link id="offerings-anchor" to="/home/offerings">
                 Offering
               </Link>
             </li>
             <li>
-              <Link id="contribution-anchor" to="/home-new/contribution">
+              <Link id="contribution-anchor" to="/home/contribution">
                 Contribution
               </Link>
             </li>
             <li>
-              <Link id="solutions-anchor" to="/home-new/solutions">
+              <Link id="solutions-anchor" to="/home/solutions">
                 Solutions
               </Link>
             </li>
