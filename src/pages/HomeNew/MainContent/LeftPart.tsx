@@ -16,7 +16,7 @@ const LeftPart = () => {
           " removal or sequestration of carbon emissions."
         }
       />
-      <Link to="/home-new/offerings?tab=0">
+      <Link to="/home/offerings?tab=0">
         <Button style={{ color: "white", cursor: "pointer" }}>
           For Individuals <img src={Arrow} alt="" />
         </Button>
@@ -27,7 +27,7 @@ const LeftPart = () => {
           " experience that includes carbon footprint accounting and end user positive climate action driving brand loyalty through rewards."
         }
       />
-      <Link to="/home-new/offerings?tab=1">
+      <Link to="/home/offerings?tab=1">
         <Button style={{ color: "white", cursor: "pointer" }}>
           For Businesses <img src={Arrow} alt="" />
         </Button>

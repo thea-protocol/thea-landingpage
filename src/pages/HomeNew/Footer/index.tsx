@@ -8,13 +8,13 @@ const Footer = () => {
   return (
     <div className="footer-wrapper">
       <div className="left">
-        <Link to="/home-new">
+        <Link to="/home">
           <TheaIcon />
         </Link>        
         <p>Climate Positive Action; made easy.</p>
-        {/* <Link to="/home"> */}
+        <Link to="/home">
           <Button>Explore App</Button>
-        {/* </Link> */}
+        </Link>
       </div>
       <div className="links">
         <div className="footer-row">
@@ -22,10 +22,10 @@ const Footer = () => {
           <Link className="footer-anchor" to="/background">
             Background
           </Link>
-          <Link className="footer-anchor" to="/home-new/offerings">
+          <Link className="footer-anchor" to="/home/offerings">
             Offering
           </Link>
-          <Link className="footer-anchor" to="/home-new/contribution">
+          <Link className="footer-anchor" to="/home/contribution">
             Contribution
           </Link>          
         </div>

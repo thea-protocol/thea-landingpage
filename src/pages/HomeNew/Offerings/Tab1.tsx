@@ -93,9 +93,9 @@ const Tab1 = () => {
             + <span style={{ color: '#399CF5', fontWeight: 600 }}> DA Line</span>
           </strong>
         </p>
-        {/* <Link to="/home"> */}
+        <Link to="/home">
           <Button arrow={false}>Explore App</Button>
-        {/* </Link> */}
+        </Link>
         <Link to="https://thea-protocol.github.io/thea-documentation/" target="_blank">
           <Button arrow={false}>SDK Documentation</Button>
         </Link>

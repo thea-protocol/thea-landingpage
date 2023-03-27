@@ -14,17 +14,17 @@ const menus = [
   },
   {
     title: "Offering",
-    href: "/home-new/offerings",
+    href: "/home/offerings",
     id: "offerings-anchor",
   },
   {
     title: "Contribution",
-    href: "/home-new/contribution",
+    href: "/home/contribution",
     id: "contribution-anchor",
   },
   {
     title: "Solutions",
-    href: "/home-new/solutions",
+    href: "/home/solutions",
     id: "solutions-anchor",
   },
 ];
@@ -53,7 +53,7 @@ const MobileHeader = () => {
       <div className="expanded-mobile-header">
         <div className="expanded-mobile-logos">
           <div className="mobile-logo">
-            <Link to="/home-new">
+            <Link to="/home">
               <img src={TheaIcon} className="mobile-header-icon" />
             </Link>
           </div>
@@ -69,17 +69,17 @@ const MobileHeader = () => {
             </Fragment>
           ))}
         </div>
-        {/* <Link to="/home"> */}
+        <Link to="/home">
           <button className="exploreButton">
             Explore App
           </button>
-        {/* </Link> */}
+        </Link>
       </div>
     );
   }
   return (
     <div className="mobile-header">
-      <Link to="/home-new">
+      <Link to="/home">
         <img src={TheaIcon} className="mobile-header-icon" />
       </Link>
       <Button onClick={onExpand} extraClasses="mobile-footer-icon-wrapper">
