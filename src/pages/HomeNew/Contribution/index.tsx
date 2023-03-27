@@ -57,9 +57,9 @@ const Contribution = () => {
         </div>
         <div className="contribution-part-two">
           <img src={ContriImage} className="contri-image" />
-          {/* <Link to="/home"> */}
+          <Link to="/home">
             <Button>Explore App</Button>
-          {/* </Link> */}
+          </Link>
         </div>
       </div>
     </div>

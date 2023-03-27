@@ -69,11 +69,11 @@ const MobileHeader = () => {
             </Fragment>
           ))}
         </div>
-        {/* <Link to="/home"> */}
+        <Link to="/home">
           <button className="exploreButton">
             Explore App
           </button>
-        {/* </Link> */}
+        </Link>
       </div>
     );
   }
