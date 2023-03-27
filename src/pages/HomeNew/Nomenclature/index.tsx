@@ -52,9 +52,9 @@ const Nomenclature = () => {
         ))}
       </div>
       <div className="explore">
-        {/* <Link to="/home"> */}
+        <Link to="/home">
           <Button>Explore App</Button>
-        {/* </Link> */}
+        </Link>
       </div>
     </div>
   );
