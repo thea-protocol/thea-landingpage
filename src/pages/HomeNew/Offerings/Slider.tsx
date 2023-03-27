@@ -1,6 +1,6 @@
 import * as React from "react";
 import MobileStepper from "@mui/material/MobileStepper";
-import SwipeableViews from "react-swipeable-views";
+// import SwipeableViews from "react-swipeable-views";
 import Item from "./Item";
 import "./styles.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";

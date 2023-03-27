@@ -1,6 +1,6 @@
 // @ts-check
 import React, { useEffect, useState, useCallback } from "react";
-import useQuery from "/src/hooks/useQuery";
+import useQuery from "../../../hooks/useQuery";
 import Button from "../Button";
 import "./styles.css";
 import Tab1 from "./Tab1";
