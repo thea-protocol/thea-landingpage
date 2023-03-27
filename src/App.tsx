@@ -18,8 +18,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index element={<HomeNew />}></Route>
-          <Route path="home-new" element={<HomeNew />}></Route>
-          <Route path="home-new/:sub" element={<HomeNew />}></Route>
+          <Route path="home" element={<HomeNew />}></Route>
+          <Route path="home/:sub" element={<HomeNew />}></Route>
           <Route path="team" element={<Team />}></Route>
           <Route path="background" element={<Background />}></Route>
         </Routes>
