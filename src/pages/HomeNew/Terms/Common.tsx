@@ -20,9 +20,10 @@ const Background = ({ title, data, renderItem }) => {
         <MobileHeader />
         <Header />
         <div className="content">
-          <h1 id="carbonHash">{title}</h1>
+          <h1>{title}</h1>
+          <div style={{ height: 400 }}></div>
           {/* <img src={AerialForest} /> */}
-          {data.map(renderItem)}
+          {/* {data.map(renderItem)} */}
         </div>
         <PositiveAction />
         <Footer />

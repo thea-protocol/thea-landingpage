@@ -5,7 +5,7 @@ import BgFooterImg from "../../../assets/background-footer.svg";
 const PositiveAction = () => {
   return (
     <div className="positive-action-wrapper">
-      <img src={BgFooterImg} className="background-footer-img" />
+      {/* <img src={BgFooterImg} className="background-footer-img" />
       <div>
         <h2>Climate Positive Action; made easy.</h2>
         <p>
@@ -15,7 +15,7 @@ const PositiveAction = () => {
           on VCC provenance and pricing.
         </p>
         <Link to="/home">Explore App</Link>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -125,12 +125,12 @@ const Background = () => {
 
   return (
     <Common
-      title={"Background"}
+      title={"Terms of Service"}
       data={data}
       renderItem={(v) => (
         <div key={v.id} id={v.id}>
-          <h2>{v.title}</h2>
-          <div className="details">{v.desc}</div>
+          {/* <h2>{v.title}</h2>
+          <div className="details">{v.desc}</div> */}
         </div>
       )}
     />

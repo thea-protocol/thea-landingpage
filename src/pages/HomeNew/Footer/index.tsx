@@ -34,10 +34,10 @@ const Footer = () => {
           <Link className="footer-anchor" to="/team">
             Team
           </Link>
-          <a className="footer-anchor" href="#">
+          <a className="footer-anchor" href="/terms">
             Terms of Service
           </a>
-          <a className="footer-anchor" href="#">
+          <a className="footer-anchor" href="/privacy">
             Privacy Policy
           </a>
           <Link className="footer-anchor" to="https://thea-protocol.github.io/thea-documentation/" target="_blank">

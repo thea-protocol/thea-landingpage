@@ -84,17 +84,17 @@ const Background = () => {
 
   return (
     <Common
-      title={"Thea: Team"}
+      title={"Privacy Policy"}
       data={data}
       renderItem={(v) => (
         <div className="profile-item">
-          <img src={v.pic} className="profile-image" />
+          {/* <img src={v.pic} className="profile-image" />
           <div className="profile-info">
             <h2>
               {v.name} <a href={v.link} target="_blank"></a>
             </h2>
             {v.desc}
-          </div>
+          </div> */}
         </div>
       )}
     />
