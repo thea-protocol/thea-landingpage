@@ -39,7 +39,7 @@
 .benchmark-wrapper h3 {
     font-size: 32px;
     line-height: 1.67vw;
-    margin-bottom: 0.625vw;
+    margin: 0 0 0.625vw;
 }
 
 .benchmark-wrapper p {
