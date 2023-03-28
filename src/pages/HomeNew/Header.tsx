@@ -66,7 +66,7 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link to="/home">
+              <Link target={"_blank"} to="https://app.thea.earth">
                 <span>Explore App</span>
               </Link>
             </li>

@@ -52,9 +52,9 @@ const Nomenclature = () => {
         ))}
       </div>
       <div className="explore">
-        {/* <Link to="/home"> */}
+        <Link  target={"_blank"} to="https://app.thea.earth">
           <Button>Explore App</Button>
-        {/* </Link> */}
+        </Link>
       </div>
     </div>
   );
