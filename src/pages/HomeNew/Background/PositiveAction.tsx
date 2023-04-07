@@ -14,7 +14,7 @@ const PositiveAction = () => {
           novel methodology to improve market liquidity and enhance transparency
           on VCC provenance and pricing.
         </p>
-        <Link to="/home">Explore App</Link>
+        <Link target={"_blank"} to="https://app.thea.earth">Explore App</Link>
       </div>
     </div>
   );
