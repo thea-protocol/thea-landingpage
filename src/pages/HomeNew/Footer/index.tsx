@@ -12,7 +12,7 @@ const Footer = () => {
           <TheaIcon />
         </Link>        
         <p>Climate Positive Action; made easy.</p>
-        <Link to="/home">
+        <Link target={"_blank"} to="https://app.thea.earth">
           <Button>Explore App</Button>
         </Link>
       </div>

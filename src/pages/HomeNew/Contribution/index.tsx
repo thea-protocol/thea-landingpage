@@ -57,7 +57,7 @@ const Contribution = () => {
         </div>
         <div className="contribution-part-two">
           <img src={ContriImage} className="contri-image" />
-          <Link to="/home">
+          <Link target={"_blank"} to="https://app.thea.earth">
             <Button>Explore App</Button>
           </Link>
         </div>

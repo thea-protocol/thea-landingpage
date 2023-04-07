@@ -69,7 +69,7 @@ const MobileHeader = () => {
             </Fragment>
           ))}
         </div>
-        <Link to="/home">
+        <Link target={"_blank"} to="https://app.thea.earth">
           <button className="exploreButton">
             Explore App
           </button>
