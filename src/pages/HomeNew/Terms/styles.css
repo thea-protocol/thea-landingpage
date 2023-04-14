@@ -148,7 +148,7 @@
   padding-bottom: 1.1vw;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   .content {
     padding: 20px;
   }
@@ -222,5 +222,12 @@
 
   .profile-item h2 {
     justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 960px) {
+  .positive-action-wrapper a {
+      margin: 40px auto;
+      width: 45%
   }
 }

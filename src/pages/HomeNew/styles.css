@@ -260,7 +260,7 @@ html {
   margin: 0 20px;
 }
 
-@media only screen and (max-width: 600px)  {
+@media only screen and (max-width: 960px)  {
     .mobile-header {
         display: flex;
         justify-content: space-between;
@@ -485,6 +485,15 @@ html {
     .solutions .disclaimer {
         margin-top: 16px;
     }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 960px) {
+  .user-experience button {
+    width: 45%;
+  }
+  .contribution-part-two button {
+    width: 45%
+  }
 }
 
 /* Green BG styles */
