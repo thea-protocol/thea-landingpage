@@ -168,7 +168,7 @@ $white: #fff;
     @media (min-width: 1024px) {
       display: none;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 960px) {
       display: grid;
       grid-template-columns: 73% 24%;
       gap: 15px;
