@@ -8,7 +8,7 @@
   max-width: 1400px;
   margin: auto;
   max-width: 1240px;
-  padding: 2.1vw 0;
+  padding: 2.1vw;
 }
 
 .content h1 {
@@ -62,7 +62,7 @@
   justify-content: center;
   max-width: 1400px;
   margin: auto;
-  padding: 0 0 3.75vw;
+  padding: 0 2.1vw 3.75vw;
   align-items: center;
   justify-content: center;
   max-width: 1240px;
